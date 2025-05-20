@@ -30,7 +30,7 @@
         {$userConfig.lang || "No language yet"}
       </div>
       <br />
-      <h5>Click on the button to request refresh the token</h5>
+      <h5>Click on the button to request refreshing the token</h5>
       <button onclick={refreshToken}>Get Refresh Token</button>
     </div>
   </div>
