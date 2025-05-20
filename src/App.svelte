@@ -25,6 +25,14 @@
         <strong>Token:</strong>
         {$userConfig.token || "No token yet"}
       </div>
+      <div style="margin-bottom: 4px;">
+        <strong>Longitude:</strong>
+        {$userConfig.lng || "No longitude yet"}
+      </div>
+      <div style="margin-bottom: 4px;">
+        <strong>Latitude:</strong>
+        {$userConfig.lat || "No latitude yet"}
+      </div>
       <div>
         <strong>Language:</strong>
         {$userConfig.lang || "No language yet"}
